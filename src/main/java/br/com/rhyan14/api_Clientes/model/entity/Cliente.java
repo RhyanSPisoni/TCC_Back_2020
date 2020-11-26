@@ -21,7 +21,7 @@ public class Cliente {
     @Column
     private String SENHA;
     @Column
-    private String CARTEIRA;
+    private int CARTEIRA;
     @Column
-    private String COMPRAS;
+    private int COMPRAS;
 }

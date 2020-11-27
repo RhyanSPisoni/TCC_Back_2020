@@ -1,10 +1,10 @@
-package br.com.rhyan14.api_Clientes;
+package io.github.rhyanspisoni.gerencia;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApiClientesApplicationTests {
+class GerenciaApplicationTests {
 
 	@Test
 	void contextLoads() {

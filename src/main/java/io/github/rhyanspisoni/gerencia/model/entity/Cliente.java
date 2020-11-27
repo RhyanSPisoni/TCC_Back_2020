@@ -1,5 +1,6 @@
-package br.com.rhyan14.api_Clientes.model.entity;
+package io.github.rhyanspisoni.gerencia.model.entity;
 
+import com.sun.xml.bind.v2.model.core.ID;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -13,7 +14,7 @@ public class Cliente {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int Id;
+    private int ID;
     @Column
     private String NOME;
     @Column
